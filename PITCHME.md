@@ -22,6 +22,10 @@
 
 ---
 
+<h3>PART 1: Javascript Discussion</h3>
+
+---
+
 <h3>Where is Javascript now?</h3>
 <p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Is Javascript the same as ECMA script the same as ES5 / ES6 / etc?</p>
 <ul style="margin-top:20px;font-size:.9em;">
@@ -84,10 +88,45 @@
 <ul style="margin-top:20px;font-size:.9em;">
   <li>Node is a robust but very basic OS.</li>
   <li>Find well supported packages to solve common problems.</li>
-  <li>Huge community; lots of developer goodness; HMR / build pipeline setup and integrations</li>
+  <li>Mircro-architect; break concerns into smaller chunks of work.</li>
 </ul>
 
 ---
+
+<h3>PART 2: Building an App</h3>
+ 
+---
+
+<h3>Environment Setup</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Getting started.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>create-react-app w/ Webpack & Babel</li>
+  <li>React</li>
+  <li>Redux</li>
+</ul>
+
+++++
+
+<h3>NPM</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Types of common packages.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>template packages</li>
+  <li>data management packages </li>
+  <li>linting / testing tools</li>
+  <li>build / deploy tools</li>
+</ul>
+
+++++
+
+<h3>Deploying Static Websites / PWA's</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Building for the future.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>How to serve the files</li>
+  <li>Hosting options</li>
+</ul>
+
+---
+
 <h3>Resources</h3>
 <ul style="margin-top:20px;font-size:.9em;">
   <li><a href="https://nodejs.org/en/" target="_blank">Node</a></li>
@@ -97,4 +136,5 @@
   <li><a href="https://github.com/facebookincubator/create-react-app" target="_blank">create-react-app</a></li>
   <li><a href="https://zeit.co/now" target="_blank">now</a></li>
   <li><a href="https://github.com" target="_blank">GitHub</a></li>
+  <li><a href="https://developers.google.com/web/tools/lighthouse/" target="_blank">Lighthouse</a></li>
 </ul>
