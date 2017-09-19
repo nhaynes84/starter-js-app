@@ -111,7 +111,7 @@
   <li>Redux</li>
 </ul>
 
-++++
++++
 
 <h3>NPM</h3>
 <p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Types of common packages.</p>
@@ -122,7 +122,7 @@
   <li>build / deploy tools</li>
 </ul>
 
-++++
++++
 
 <h3>Deploying Static Websites / PWA's</h3>
 <p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Building for the future.</p>
