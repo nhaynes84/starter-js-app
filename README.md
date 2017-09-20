@@ -1,3 +1,6 @@
+This is a sample starter javascript application. 
+The associated presentation is available at: https://gitpitch.com/nhaynes84/starter-js-app
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

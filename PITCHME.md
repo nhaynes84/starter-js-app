@@ -123,8 +123,41 @@
 
 +++
 
+<h3>NPM</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Types of common packages.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>template packages</li>
+  <li>data management packages</li>
+  <li>linting / testing tools</li>
+  <li>build / deploy tools</li>
+</ul>
+
++++
+
+<h3>Deploying Static Websites / PWA's</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Building for the future.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>How to serve the files</li>
+  <li>Hosting options</li>
+</ul>
+
+---
+
+<h3>PART 2: Building an App</h3>
+ 
+---
+
+<h3>Environment Setup</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Getting started.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>create-react-app w/ Webpack & Babel</li>
+  <li>React</li>
+  <li>Redux</li>
+</ul>
+
++++
+
 <h3>Build packages</h3>
-<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">A library for building user interfaces.</p>
 <ul style="margin-top:20px;font-size:.9em;">
   <li>create-react-app is an opinionated project generator</li>
   <li>Webpack is used behind the scenes to do a variety of build / dev tasks</li>
