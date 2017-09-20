@@ -1,6 +1,6 @@
-const removeTask = taskId => ({
+const removeTask = taskName => ({
 	type: 'TASK_REMOVED',
-	taskId
+	taskName
 });
 
 export default removeTask;

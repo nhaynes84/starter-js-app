@@ -4,10 +4,10 @@ const tasks = (state = [], action) => {
 			return [...state, action.task];
 		}
 		case 'TASK_REMOVED': {
-			return Object.assign([], state.filter(x => x.taskId !== action.taskId));
+			return Object.assign([], state.filter(x => x.taskName !== action.taskName));
 		}
 		case 'TASK_MODIFIED': {
-			return Object.assign([], state, state.filter(x => x.taskId !== action.task.taskId).concat([action.task]));
+			return Object.assign([], state, state.filter(x => x.taskName !== action.task.taskName).concat([action.task]));
 		}
 		default:
 			return state;
