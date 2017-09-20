@@ -168,12 +168,19 @@
 <h3>Serving the build</h3>
 <ul style="margin-top:20px;font-size:.9em;">
   <li>What kind of files do we have for serving?</li>
-  <li>Actions</li>
-  <li>Reducers</li>
-  <li>one way data flow</li>
+  <li>Optimizing production code</li>
 </ul>
 
++++
 
+<h3>How to host</h3>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>Serve the files traditionally on your own</li>
+  <li>Use a simpe AWS S3 bucket / back it with CloudFront if you like</li>
+  <li>Deploy to any number of static site hosting services </li>
+</ul>
+
+---
 
 <h3>Resources</h3>
 <ul style="margin-top:20px;font-size:.9em;">
