@@ -29,8 +29,10 @@
 
 .container {
   display: flex;
+  position:relative;
 }
 
 .item {
   text-align:left;
+  flex:1;
 }
