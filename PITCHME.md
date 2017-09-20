@@ -12,7 +12,7 @@
 <p style="font-size:.7em;margin-top:-10px;color:darkgrey;"><b>It is the fastest growing language today; some key things to know...</b></p>
 <ul style="margin-top:20px;font-size:.9em;">
   <li>What is the current state of the language? </li>
-  <li>Javascript fatigue explained. </li>
+  <li>Node and NPM explained. </li>
 </ul>
 
 +++
@@ -60,7 +60,7 @@
 
 ---
 
-<h3>Open Source can be exhausting</h3>
+<h3>Open Source javascript</h3>
 <p style="font-size:.7em;margin-top:-10px;color:darkgrey;">With great power...</p>
 <ul style="margin-top:20px;font-size:.9em;">
   <li>Node / NPM overview</li>
@@ -76,7 +76,6 @@
   <li>The NPM registry (package management)</li>
   <li>Speed and reliability; OS agnostic</li>
   <li>Huge community</li>
-  <li>HMR / build pipeline setup and integrations</li>
 </ul>
 
 +++
@@ -86,6 +85,17 @@
   <li>Node is a robust but very basic OS.</li>
   <li>Find well supported packages to solve common problems.</li>
   <li>Mircro-architect; break concerns into smaller chunks of work.</li>
+</ul>
+
++++
+
+<h3>NPM packages</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Types of common packages.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>template packages</li>
+  <li>data management packages</li>
+  <li>linting / testing tools</li>
+  <li>build / deploy tools</li>
 </ul>
 
 +++
@@ -129,6 +139,78 @@
 <ul style="margin-top:20px;font-size:.9em;">
   <li>How to serve the files</li>
   <li>Hosting options</li>
+</ul>
+
+---
+
+<h3>PART 2: Building an App</h3>
+ 
+---
+
+<h3>Environment Setup</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Getting started.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>create-react-app w/ Webpack & Babel</li>
+  <li>React</li>
+  <li>Redux</li>
+</ul>
+
++++
+
+<h3>Build packages</h3>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>create-react-app is an opinionated project generator</li>
+  <li>Webpack is used behind the scenes to do a variety of build / dev tasks</li>
+  <li>Babel is a transpiler allowing developers to use the latest JS versions</li>
+  <li>highly composable / reusable</li>
+</ul>
+
++++
+
+<h3>React</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">A library for building user interfaces.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>Virtual DOM</li>
+  <li>JSX</li>
+  <li>simple lifecycle</li>
+  <li>highly composable / reusable</li>
+</ul>
+
++++
+
+<h3>Redux</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">A FLUX-ish library for managing application state.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>Store</li>
+  <li>Actions</li>
+  <li>Reducers</li>
+  <li>one way data flow</li>
+</ul>
+
+---
+
+<h3>Deploying Static Websites / PWA's</h3>
+<p style="font-size:.7em;margin-top:-10px;color:darkgrey;">Building for the future.</p>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>How to serve the files</li>
+  <li>Hosting options</li>
+</ul>
+
++++
+
+<h3>Serving the build</h3>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>What kind of files do we have for serving?</li>
+  <li>Optimizing production code</li>
+</ul>
+
++++
+
+<h3>How to host</h3>
+<ul style="margin-top:20px;font-size:.9em;">
+  <li>Serve the files traditionally on your own</li>
+  <li>Use a simpe AWS S3 bucket / back it with CloudFront if you like</li>
+  <li>Deploy to any number of static site hosting services </li>
 </ul>
 
 ---
